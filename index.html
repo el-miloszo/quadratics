@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<div class="wholehead">
+	<div class="heading">
+    <h1>Quadratics Calculator</h1>
+	<p id="description"> This calculator requires Javascript enabled in your browser. It is designed to solve quadratic equations using the quadratic formula shown below. Enter three numbers and click the SOLVE button (remember that x - y = x + -y i.e. 6-8 = 6+ -8). The information calculated is the answer to the solution given. Some equations have two possible solutions, some of them have just one solution and some of them have no correct solution. </p>
+	</div>
+	</div>
+	<script src="jquery-3.1.1.min.js"></script>
+	<link rel='stylesheet' href='style.css'/>
+	<script src='script.js'></script>
+</head>
+</head>
+<body>
+<div class="whole">
+	<center><div class="one_line">
+        <input id="one" class="inputPanel" type="text" placeholder="a">
+    </div>
+    <div class="one_line">
+        <p id="between_input"><em>x</em><sup>2</sup> + </p>
+    </div>
+    <div class="one_line">
+        <input id="two" class="inputPanel" type="text" placeholder="b">
+    </div>
+    <div class="one_line">
+        <p id="between_input"><em>x</em> + </p>
+    </div>
+    <div class="one_line">
+        <input id="three" class="inputPanel" type="text" placeholder="c">
+    </div>
+    <div class="one_line">
+        <p id="between_input">=</p>
+    </div>
+    <div class="one_line">
+        <input id="four" class="inputPanel" type="text" placeholder="d">
+    </div>
+    <button id="solve_button" onClick="solve()">SOLVE</button></center>
+	<div class="solution">
+        <p id="line_one"></p>
+        <p id="line_two"></p>
+        <p id="line_three"></p>
+        <p id="line_four"></p>
+        <p id="line_five"></p>
+	</div>
+	<center><img id="formula" src="formula.png" alt="Quadratic formula" width="400" height="80"></center>
+	</div>
+</body>
+</html>
