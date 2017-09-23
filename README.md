@@ -1,0 +1,2 @@
+# quadratics
+Quadratic equations calculator
