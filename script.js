@@ -36,7 +36,7 @@ function solve() {
 	else if (step_three == step_four) {
 		if (step_three == 0) {
 			document.getElementById("line_two").innerHTML = "You have asked for a solution to: " + a + "x<sup>2</sup> + " + b +"x + " + c + " = " + d;
-			document.getElementById("line_four").innerHTML = "This quadratic equation has no solution.";
+			document.getElementById("line_four").innerHTML = "This quadratic equation has no real solutions.";
 		}
 		else {
 		    document.getElementById("line_one").innerHTML = "You have asked for a solution to: " + a + "x<sup>2</sup> + " + b +"x + " + c + " = " + d;
@@ -46,6 +46,6 @@ function solve() {
 	}
 	else {
 		document.getElementById("line_two").innerHTML = "You have asked for a solution to: " + a + "x<sup>2</sup> + " + b +"x + " + c + " = " + d;
-		document.getElementById("line_four").innerHTML = "This quadratic equation has no solution.";
+		document.getElementById("line_four").innerHTML = "This quadratic equation has no real solutions.";
 	}
 }
